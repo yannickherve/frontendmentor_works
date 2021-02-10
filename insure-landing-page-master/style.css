@@ -511,10 +511,13 @@ img {
     padding: 21px 165px 19px 168px;
   }
 
-  .home-container .home-intro {
-    display: grid;
-    grid-template-rows: 105px 1fr minmax(auto, 155px);
-    grid-template-columns: 735px max-content 165px;
+  .page-body .home-container .home-intro {
+    grid-template-rows: 105px 495px 155px;
+    grid-template-columns: 1fr auto 165px;
+  }
+
+  .home-intro-img {
+    margin-top: 62px;
   }
 
   .home-intro-body .intro-title {
