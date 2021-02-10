@@ -22,8 +22,6 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
     />
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-
     <link rel="stylesheet" href="resetmin.css" />
     <link rel="stylesheet" href="style.css" />
   </head>
@@ -56,7 +54,7 @@
             <div class="home-intro-img">
               <picture>
                 <source
-                  media="(min-width: 768px)"
+                  media="(min-width: 410px)"
                   srcset="images/image-intro-desktop.jpg"
                 />
                 <img src="images/image-intro-mobile.jpg" alt="intro img" />
@@ -80,7 +78,7 @@
               </div>
             </div>
           </section>
-          <secton class="block-features">
+          <section class="block-features">
             <div class="block-features-container">
               <h1 class="feature-title">We’re different</h1>
               <div class="features">
@@ -126,7 +124,7 @@
                 </div>
               </div>
             </div>
-          </secton>
+          </section>
           <section class="work-action">
             <div class="action-container">
               <h1 class="action-title">Find out more <br>
@@ -140,7 +138,7 @@
       </main>
       <footer class="page-footer">
         <div class="footer-container">
-          <section class="block-socials">
+          <div class="block-socials">
             <div class="logo">
               <img src="images/logo.svg" alt="Footer-logo" />
             </div>
@@ -158,8 +156,8 @@
                 <img src="images/icon-instagram.svg" alt="Facebook">
               </div>
             </div>
-          </section>
-          <section class="footer-nav-group">
+          </div>
+          <div class="footer-nav-group">
             <div class="footer-nav">
               <span class="footer-nav-title">Our company</span>
               <nav class="footer-nav-link">
@@ -194,7 +192,7 @@
                 <a href="#">Licenses</a>
               </nav>
             </div>
-          </section>
+          </div>
         </div>
       </footer>
     </div>
@@ -213,10 +211,6 @@
 
       menuButton.addEventListener("click", openMenu);
       closeMenu.addEventListener("click", openMenu);
-
-      AOS.init({
-        duration: 1000,
-      });
     </script>
   </body>
 </html>
