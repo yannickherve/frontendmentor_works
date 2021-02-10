@@ -299,7 +299,7 @@ img {
   border: 1.5px solid #ffffff;
   width: 100%;
   max-width: 160px;
-  height: 40px;
+  max-height: 40px;
   padding: 12px 0;
   transition: background-color 0.3s;
 }
@@ -648,7 +648,7 @@ img {
     text-align: left;
     min-width: 255px;
   }
-  
+
   .footer-nav:not(:last-child) {
     margin-bottom: 0;
   }
